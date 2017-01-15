@@ -1,4 +1,6 @@
 # books
 Book readings
 
-{{ site.data.books.size }}
+{% for book in site.data.books %}
+- `{{ book.Title }}` {{ book.author }}
+{% endfor %}
