@@ -1,5 +1,5 @@
 # books
-Book readings [books.csv]({{ site.github.repository_url }}/_data/books.csv)  
+Book readings [books.csv]({{ site.github.repository_url }}/blob/master/_data/books.csv)  
 build ``{{ site.github.build_revision }}``
 
 {% for book in site.data.books %}- **`{{ book.Title }}`** {{ book.Author }} ({{ book.Start | date: "%B %-d %Y" }})  
