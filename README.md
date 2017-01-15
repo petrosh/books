@@ -4,7 +4,7 @@ build ``{{ site.github.build_revision }}``
 
 {% for book in site.data.books %}{% assign currentdate = book.Start | date: "%Y" %}{% if currentdate != date %}
 ## {{ currentdate }}
-{% assign date = currentdate %}{% endif %}- **`{{ book.Title }}`** {{ book.Author }} *{{ book.Start | date: "%B %-d" }}*  
+{% assign date = currentdate %}{% endif %}- **`{{ book.Title }}`** {{ book.Author }} <small><em>{{ book.Start | date: "%B %-d" }}</em></small>  
 {% endfor %}
 
 <script type="text/javascript">
