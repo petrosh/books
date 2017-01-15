@@ -1,5 +1,6 @@
 # books
-Book readings
+Book readings [books.csv](_data/books.csv)  
+build ``{{ site.github.build_revision }}``
 
 {% for book in site.data.books %}- **`{{ book.Title }}`** {{ book.Author }} ({{ book.Start | date: "%B %-d %Y" }})  
 {% endfor %}
