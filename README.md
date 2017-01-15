@@ -1,8 +1,7 @@
 # books
 Book readings
 
-{% for book in site.data.books %}
-- `{{ book.Title }}` {{ book.Author }}  
+{% for book in site.data.books %}- **`{{ book.Title }}`** {{ book.Author }}  
 {% endfor %}
 
 <script type="text/javascript">
