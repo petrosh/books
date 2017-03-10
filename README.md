@@ -1,5 +1,5 @@
 # books
-- Repository: {{ site.github.repository_url }}
+- Repository: [{{ site.github.repository_url }}]({{ site.github.repository_url }})
 - Books file: [books.csv]({{ site.github.repository_url }}/blob/master/_data/books.csv)
 - build: ``{{ site.github.build_revision }}``
 
