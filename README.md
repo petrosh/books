@@ -1,7 +1,8 @@
 # books
 - Repository: [{{ site.github.repository_url }}]({{ site.github.repository_url }})
+- This page: [{{ site.github.repository_url }}/blob/master/{{ page.path }}]({{ site.github.repository_url }}/blob/master/{{ page.path }})
 - Books file: [books.csv]({{ site.github.repository_url }}/blob/master/_data/books.csv) ({{ site.data.books | size }} items)
-- build: ``{{ site.github.build_revision }}``
+- build: ``{{ site.github.build_revision }}`` ({{ site.time | date_to_long_string }})
 
 {% for book in site.data.books %}{% assign currentdate = book.Start | date: "%Y" %}{% if currentdate != date %}
 ## {{ currentdate }}
