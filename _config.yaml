@@ -1,2 +1,3 @@
+timezone: Europe/Rome
 gems:
   - 'jekyll-github-metadata'
