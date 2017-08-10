@@ -1,3 +1,5 @@
 timezone: Europe/Rome
+bar:
+  width: 12 # in em units
 gems:
   - 'jekyll-github-metadata'
