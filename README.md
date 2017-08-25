@@ -1,4 +1,3 @@
-# books
 - Repository: [{{ site.github.repository_url }}]({{ site.github.repository_url }})
 - This page: [{{ site.github.repository_url }}/blob/master/{{ page.path }}]({{ site.github.repository_url }}/blob/master/{{ page.path }})
 - Books file: [{{ site.github.repository_url }}/blob/master/_data/books.csv]({{ site.github.repository_url }}/blob/master/_data/books.csv) - {{ site.data.books | size }} items
